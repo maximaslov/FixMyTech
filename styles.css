@@ -5,3 +5,133 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: #070707;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    line-height: 27px;
+}
+
+.logo-title span {
+    color: #48A1F7;
+}
+
+.logo img {
+    margin-right: 6px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-subtitle {
+    font-size: 12px;
+    color: #7E7E7E;
+    font-weight: 400;
+}
+
+.contacts {
+    display: flex;
+    max-width: 509px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts p {
+    color: #070707;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.phone {
+    transition: color 0.25s ease;
+    padding: 0;
+}
+
+.phone:hover {
+    color: #48A1F7;
+    transition: color 0.25s ease;
+}
+
+.callback-btn {
+    background-color: #48A1F7;
+    padding: 10px 37px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 21px;
+    border: solid 1px #FFFFFF;
+    transition: background-color 0.25s ease, color 0.25s ease, border 0.25s ease;
+}
+
+.callback-btn:hover {
+    transition: transform 1s ease;
+    background-color: #FFFFFF;
+    color: #48A1F7;
+    border: solid 1px #48A1F7;
+    transition: background-color 0.25s ease, color 0.25s ease, border 0.25s ease;
+}
+
+@media (max-width: 1080px) {
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 880px) {
+    .contacts {
+        flex-direction: column-reverse;
+        max-width: 210px;
+        height: 65px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contacts p {
+        font-size: 16px;
+    }
+
+    .callback-btn {
+        font-size: 16px;
+        padding: 7px 34px;
+    }
+
+    .phone {
+        padding: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .logo {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+}
