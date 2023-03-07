@@ -150,7 +150,7 @@ form button:hover {
   margin: 0 auto;
   padding: 0 224px;
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .info {
@@ -237,7 +237,7 @@ form button:hover {
   position: absolute;
   z-index: -1;
   left: 0;
-  top: 782px;
+  top: 902px;
 }
 
 .blue-key {
@@ -247,8 +247,8 @@ form button:hover {
 .grey-key {
     position: absolute;
     z-index: -1;
-    top: 1137px;
-    right: -67px;
+    top: 1147px;
+    right: -41px;
 }
 
 .experience-title {
@@ -465,9 +465,8 @@ form button:hover {
   }
 
   .blue-key-bg {
-    left: -136px;
-    top: 951px;
-    filter: blur(17px);
+    left: -168px;
+    top: 1056px;
   }
 
   .grey-key {
@@ -497,12 +496,13 @@ form button:hover {
 
   .blue-key-bg {
     left: -136px;
-    top: 1157px;
-  }
+    top: 1281px;
+}
 
   .grey-key {
     top: 1545px;
     right: -262px;
+    filter: blur(17px);
   }
 
   .settings-bg-blur {
