@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -67,6 +71,7 @@ form button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -150,7 +155,7 @@ form button:hover {
   margin: 0 auto;
   padding: 0 224px;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .info {
@@ -306,8 +311,12 @@ form button:hover {
 .settings-bg-blur {
     position: absolute;
     z-index: -1;
-    bottom: -287px;
-    right: -345px;
+    top: 2px;
+    right: -224px;
+}
+
+.callback-form {
+  position: relative;
 }
 
 .form-header {
@@ -474,12 +483,6 @@ form button:hover {
     right: -218px;
     }
 
-    .settings-bg-blur {
-        bottom: -122px;
-        right: -189px;
-        max-width: 690px;
-    }
-
     .settings-bg {
         bottom: 8px;
         left: -90px;
@@ -538,6 +541,7 @@ form button:hover {
 }
 
 @media (max-width: 790px) {
+
   .price-text:first-child {
     font-size: 35px;
   }
@@ -640,9 +644,11 @@ form button:hover {
 }
 
 @media (max-width: 450px) {
+
   .description-title {
     flex-direction: column;
   }
+
   .description-title span:last-child {
     margin-left: -11px;
   }
