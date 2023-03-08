@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -246,14 +246,14 @@ form button:hover {
 }
 
 .blue-key {
-    display: none;
+  display: none;
 }
 
 .grey-key {
-    position: absolute;
-    z-index: -1;
-    top: 1147px;
-    right: -41px;
+  position: absolute;
+  z-index: -1;
+  top: 1147px;
+  right: -41px;
 }
 
 .experience-title {
@@ -302,17 +302,17 @@ form button:hover {
 }
 
 .settings-bg {
-    position: absolute;
-    z-index: -1;
-    bottom: 15px;
-    left: 33px;
+  position: absolute;
+  z-index: -1;
+  bottom: 15px;
+  left: 33px;
 }
 
 .settings-bg-blur {
-    position: absolute;
-    z-index: -1;
-    top: 2px;
-    right: -224px;
+  position: absolute;
+  z-index: -1;
+  top: 2px;
+  right: -224px;
 }
 
 .callback-form {
@@ -415,10 +415,10 @@ form button:hover {
 }
 
 @media (max-width: 1240px) {
-    .grey-key {
-        top: 1135px;
-        right: -216px;
-    }
+  .grey-key {
+    top: 1135px;
+    right: -216px;
+  }
 }
 
 @media (max-width: 1120px) {
@@ -481,12 +481,12 @@ form button:hover {
   .grey-key {
     top: 1344px;
     right: -218px;
-    }
+  }
 
-    .settings-bg {
-        bottom: 8px;
-        left: -90px;
-    }
+  .settings-bg {
+    bottom: 8px;
+    left: -90px;
+  }
 }
 
 @media (max-width: 920px) {
@@ -500,7 +500,7 @@ form button:hover {
   .blue-key-bg {
     left: -136px;
     top: 1281px;
-}
+  }
 
   .grey-key {
     top: 1545px;
@@ -541,7 +541,6 @@ form button:hover {
 }
 
 @media (max-width: 790px) {
-
   .price-text:first-child {
     font-size: 35px;
   }
@@ -610,7 +609,7 @@ form button:hover {
   .footer {
     font-size: 20px;
   }
-  
+
   .settings-bg {
     max-width: 262px;
   }
@@ -627,7 +626,7 @@ form button:hover {
     display: none;
   }
 
-  .blue-key  {
+  .blue-key {
     display: block;
     position: absolute;
     z-index: -1;
@@ -637,14 +636,13 @@ form button:hover {
 }
 
 @media (max-width: 500px) {
-    .grey-key {
-        top: 1846px;
-        right: 392px;
-    }
+  .grey-key {
+    top: 1846px;
+    right: 392px;
+  }
 }
 
 @media (max-width: 450px) {
-
   .description-title {
     flex-direction: column;
   }
@@ -679,7 +677,7 @@ form button:hover {
     font-size: 20px;
   }
 
-  .blue-key  {
+  .blue-key {
     display: block;
     position: absolute;
     z-index: -1;
@@ -733,11 +731,10 @@ form button:hover {
 }
 
 @media (max-width: 350px) {
-    .grey-key {
-        top: 1909px;
+  .grey-key {
+    top: 1909px;
     right: 236px;
-    }
-    
+  }
 }
 @media (max-width: 320px) {
   .description-text-container {
@@ -750,10 +747,10 @@ form button:hover {
     z-index: -1;
     top: 1397px;
     right: -16px;
-    }
+  }
 
-    .grey-key {
-        top: 2090px;
-        right: 193px;
-    }
+  .grey-key {
+    top: 2090px;
+    right: 193px;
+  }
 }
