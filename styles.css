@@ -210,6 +210,7 @@ form button:hover {
 .description-title span {
   color: #48a1f7;
 }
+
 .description-title span:last-child {
   color: #000000;
 }
@@ -374,7 +375,7 @@ form button:hover {
 }
 
 .footer {
-  height: 250px;
+  height: 97px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,6 +426,7 @@ form button:hover {
   .main {
     padding: 0 145px;
   }
+
   .info-title {
     font-size: 25px;
   }
@@ -736,6 +738,7 @@ form button:hover {
     right: 236px;
   }
 }
+
 @media (max-width: 320px) {
   .description-text-container {
     min-height: 230px;
