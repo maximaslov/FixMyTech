@@ -157,7 +157,7 @@ form button:hover {
   margin: 0 auto;
   padding: 0 224px;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .info {
