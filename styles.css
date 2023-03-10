@@ -151,8 +151,12 @@ form button:hover {
   transition: background-color 0.25s ease, color 0.25s ease, border 0.25s ease;
 }
 
+.content-wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 .main {
-  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   padding: 0 224px;
@@ -161,10 +165,11 @@ form button:hover {
 }
 
 .info {
+  max-width: 1600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 120px;
+  margin: 120px auto 0 auto;
 }
 
 .info-text {
@@ -194,11 +199,19 @@ form button:hover {
   max-width: 100%;
 }
 
+.main-section {
+  max-width: 1600px;
+  position: relative;
+  margin: 0 auto;
+}
+
 .description {
-  margin-top: 110px;
+  max-width: 1600px;
+  margin: 110px auto 0 auto;
   display: flex;
   justify-content: space-between;
   gap: 16px;
+  position: relative;
 }
 
 .description-title {
@@ -236,6 +249,7 @@ form button:hover {
 }
 
 .experience {
+  max-width: 1600px;
   text-align: center;
   max-width: 795px;
   margin: 132px auto 30px auto;
@@ -244,8 +258,8 @@ form button:hover {
 .blue-key-bg {
   position: absolute;
   z-index: -1;
-  left: 0;
-  top: 902px;
+  left: -157px;
+  top: 327px;
 }
 
 .blue-key {
@@ -255,8 +269,8 @@ form button:hover {
 .grey-key {
   position: absolute;
   z-index: -1;
-  top: 1147px;
-  right: -41px;
+  top: 546px;
+  right: -279px;
 }
 
 .experience-title {
@@ -287,6 +301,11 @@ form button:hover {
   transition: background-color 0.25s ease, color 0.25s ease, border 0.25s ease;
 }
 
+.materials {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .materials-box {
   background-color: #eaeaea;
   border-radius: 16px;
@@ -307,18 +326,20 @@ form button:hover {
 .settings-bg {
   position: absolute;
   z-index: -1;
-  bottom: 15px;
-  left: 33px;
+  bottom: -188px;
+  left: -120px;
 }
 
 .settings-bg-blur {
   position: absolute;
   z-index: -1;
-  top: 2px;
-  right: -224px;
+  top: -89px;
+  right: -546px;
 }
 
 .callback-form {
+  margin: 0 auto;
+  max-width: 1600px;
   position: relative;
 }
 
@@ -417,10 +438,10 @@ form button:hover {
   }
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1340px) {
   .grey-key {
-    top: 1135px;
-    right: -216px;
+    top: 648px;
+    right: -279px;
   }
 }
 
@@ -474,22 +495,22 @@ form button:hover {
   }
 
   .footer {
-    height: 185px;
+    height: 85px;
   }
 
   .blue-key-bg {
-    left: -168px;
-    top: 1056px;
+    left: -245px;
+    top: 524px;
   }
 
   .grey-key {
-    top: 1344px;
-    right: -218px;
+    top: 822px;
+    right: -343px;
   }
 
   .settings-bg {
-    bottom: 8px;
-    left: -90px;
+    bottom: -152px;
+    left: -63px;
   }
 }
 
@@ -499,17 +520,6 @@ form button:hover {
   }
   .info-text {
     max-width: 100%;
-  }
-
-  .blue-key-bg {
-    left: -136px;
-    top: 1281px;
-  }
-
-  .grey-key {
-    top: 1545px;
-    right: -262px;
-    filter: blur(17px);
   }
 
   .settings-bg-blur {
@@ -634,8 +644,8 @@ form button:hover {
     display: block;
     position: absolute;
     z-index: -1;
-    top: 1165px;
-    right: -17px;
+    top: 547px;
+    right: -11px;
   }
 }
 
@@ -680,19 +690,6 @@ form button:hover {
   form button {
     font-size: 20px;
   }
-
-  .blue-key {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 1258px;
-    right: -16px;
-  }
-
-  .grey-key {
-    top: 1935px;
-    right: 322px;
-  }
 }
 
 @media (max-width: 420px) {
@@ -732,6 +729,11 @@ form button:hover {
     top: 1842px;
     right: 312px;
   }
+
+  .blue-key {
+    top: 719px;
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -747,13 +749,8 @@ form button:hover {
   }
 
   .blue-key {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 1397px;
-    right: -16px;
+    top: 864px;
   }
-
   .grey-key {
     top: 2090px;
     right: 193px;
