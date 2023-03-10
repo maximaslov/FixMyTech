@@ -75,6 +75,7 @@ form button:hover {
 }
 
 .logo {
+  cursor: default;
   display: flex;
   align-items: center;
 }
@@ -132,6 +133,7 @@ form button:hover {
 }
 
 .callback-btn {
+  cursor: pointer;
   background-color: #48a1f7;
   padding: 10px 37px;
   color: #ffffff;
@@ -396,7 +398,7 @@ form button:hover {
 
 @media (max-width: 1600px) {
   .main {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 
